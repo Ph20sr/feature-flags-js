@@ -1,0 +1,12 @@
+{
+  "name": "feature-flags-js",
+  "version": "1.0.0",
+  "description": "Feature flags sem servidor: rollout gradual estável (monotônico), kill switch, listas de permissão e bloqueio, regras por atributo, janela de tempo e testes A/B. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["feature-flags", "feature-toggles", "rollout", "ab-testing", "kill-switch", "experiments"],
+  "license": "MIT"
+}
